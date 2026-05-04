@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 while True:
-    project_name = input("Enter your project name")
+    project_name = input("Enter your project name: ")
     if project_name !="":
         break
 
@@ -18,8 +18,8 @@ list_of_files = [
     f"{project_name}/logger/__init__.py",
     f"{project_name}/pipeline/__init__.py",
     f"{project_name}/utils/__init__.py",
-    f"config/config.ymal",
-    "schema.ymal",
+    f"config/config.yaml",
+    "schema.yaml",
     "app.py",
     "main.py",
     "logs.py",
@@ -43,4 +43,4 @@ for filepth in list_of_files:
     
     else:
         logging.info("File already present at : {filepath}")
-        
+
