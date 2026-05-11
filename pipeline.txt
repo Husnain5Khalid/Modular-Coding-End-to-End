@@ -1,0 +1,2 @@
+constant file(defined the variable) -> configuration file(How to connect file) -> Data Ingestion
+
