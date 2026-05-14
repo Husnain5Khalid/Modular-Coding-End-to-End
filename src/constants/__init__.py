@@ -16,7 +16,7 @@ ROOT_DIR_KEY = os.getcwd() #means current directory Modular-coding-end-to-end
 DATA_DIR = "Data"
 DATA_DIR_KEY = "finalTrain.csv"
 
-
+#now we created the Artifacts Folder our all ML pipeline folder are present there
 ARTIFACT_DIR_KEY = "Artifact"
 
 # Data Ingestion related variable
@@ -26,6 +26,16 @@ DATA_INGESTION_INGESTED_DATA_DIR_KEY = "ingested_dir"  # we split data into trai
 RAW_DATA_DIR_KEY = "raw.csv"
 TRAIN_DATA_DIR_KEY = "train.csv"
 TEST_DATA_DIR_KEY = "test.csv"
+
+# Data Transformation Related Variable
+# Artifact / Data_transformation / processor->processor.pkl / transformation -> train.csv and test.csv
+
+DATA_TRANSFORMATION_ARTIFACT = "data_transformation"
+DATA_PREPROCESSED_DIR = "processor"
+DATA_TRANSFORMATION_PROCESSING_OBJ = "processor.pkl"
+DATA_TRANSFORMATION_DIR = "transformation"
+TRANSFORM_TRAIN_DIR_KEY = "train.csv"
+TRANSFORM_TEST_DIR_KEY = "test.csv"
 
 
 

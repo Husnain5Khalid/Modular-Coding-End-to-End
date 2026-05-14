@@ -1,2 +1,6 @@
+# Data Ingestion
 constant file(defined the variable) -> configuration file(How to connect file) -> Data Ingestion
+
+# Data Transformation
+constant file -> configuration file -> data Transformation -> utils file(if required) -> data Transformation
 
